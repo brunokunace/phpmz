@@ -1,0 +1,20 @@
+{
+  "name": "company/project",
+  "description": "PHP Hero Project",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Me",
+      "email": "myemal@mycompany.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HeroProject\\": "app/src/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^2.4"
+  }
+}
